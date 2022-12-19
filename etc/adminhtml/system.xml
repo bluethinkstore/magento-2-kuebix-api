@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * Copyright © Bluethink@copyright All rights reserved.
+ * See COPYING.txt for license details.
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+	<system>
+		<section id="carriers" sortOrder="1000" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+			<group id="kuebixapi" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+				<label>Kuebix Api</label>
+				<field id="active" type="select" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Enabled</label>
+					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+				</field>
+				<field id="title" type="text" sortOrder="50" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Title</label>
+				</field>
+				<field id="name" type="text" sortOrder="20" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Method Name</label>
+				</field>
+				<field id="api_url" type="text" sortOrder="20" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>API Url</label>
+				</field>
+				<field id="username" type="text" sortOrder="20" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>User Name</label>
+				</field>
+				<field id="password" type="password" sortOrder="20" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Password</label>
+				</field>
+				<field id="client_id" type="text" sortOrder="20" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Client Id</label>
+				</field>
+				<field id="payment_type" type="text" sortOrder="20" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Payment Type</label>
+				</field>
+				<field id="shipment_mode" type="text" sortOrder="20" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Shipment Mode</label>
+				</field>
+				<field id="shipment_type" type="text" sortOrder="20" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Shipment Type</label>
+				</field>
+				<field id="origin_pincode" type="text" sortOrder="20" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Origin Pincode</label>
+				</field>
+				<field id="rate_percentage" type="text" sortOrder="20" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Rate Upcharge(%)</label>
+				</field>				
+				<field id="specificerrmsg" type="textarea" sortOrder="80" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Displayed Error Message</label>
+				</field>
+				<field id="sort_order" type="text" sortOrder="40" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Sort Order</label>
+				</field>	
+			</group>
+		</section>
+	</system>
+</config>

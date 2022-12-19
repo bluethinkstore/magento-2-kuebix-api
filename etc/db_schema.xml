@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * Copyright © Bluethink@copyright All rights reserved.
+ * See COPYING.txt for license details.
+ */
+ -->
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="sales_order">
+        <column xsi:type="varchar" name="carrier_name" nullable="true" length="255" comment="carrier_name"/>
+        <column xsi:type="varchar" name="quote_number" nullable="true" length="255" comment="quote_number"/>
+   </table>
+</schema>

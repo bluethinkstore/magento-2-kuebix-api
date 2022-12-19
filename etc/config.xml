@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * Copyright © Bluethink@copyright All rights reserved.
+ * See COPYING.txt for license details.
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default>
+		<carriers>
+			<kuebixapi>
+				<model>Bluethink\Kuebix\Model\Carrier\Kuebixapi</model>
+				<active>0</active>
+				<title>Kuebixapi</title>
+				<name>Kuebixapi</name>
+				<price>0.00</price>
+				<api_url>https://shipment.kuebix.com/api/action/quickRate</api_url>
+				<username>gacommercialseating@kuebix.com</username>
+				<password>bebcf7e0-1294-416e-98a7-287f65</password>
+				<client_id>0011J00001Le2Sv</client_id>
+				<payment_type>Outbound Prepaid</payment_type>
+				<shipment_mode>Dry Van</shipment_mode>
+				<shipment_type>LTL</shipment_type>
+				<origin_pincode>01720</origin_pincode>
+				<rate_percentage>10</rate_percentage>
+				<restrict_pincode></restrict_pincode>
+				<sort_order>0</sort_order>
+				<specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+			</kuebixapi>
+		</carriers>
+	</default>
+</config>
