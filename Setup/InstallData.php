@@ -1,6 +1,6 @@
 <?php
 
-namespace Bluethink\Kuebix\Setup;
+namespace Bluethinkincinc\Kuebix\Setup;
 
 use Magento\Eav\Setup\EavSetup;
 use Magento\Eav\Setup\EavSetupFactory;
@@ -31,7 +31,7 @@ class InstallData implements InstallDataInterface
             'label' => 'Freight Class',
             'input' => 'select',
             'class' => '',
-            'source' => 'Bluethink\Kuebix\Model\Source\FreightClass',
+            'source' => 'Bluethinkincinc\Kuebix\Model\Source\FreightClass',
             'global' => \Magento\Eav\Model\Entity\Attribute\ScopedAttributeInterface::SCOPE_GLOBAL,
             'visible' => true,
             'required' => false,

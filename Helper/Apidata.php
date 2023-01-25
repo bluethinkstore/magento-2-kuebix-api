@@ -1,11 +1,11 @@
 <?php
 /**
- * Copyright © Bluethink@copyright All rights reserved.
+ * Copyright © Bluethinkinc@copyright All rights reserved.
  * See COPYING.txt for license details.
  */
 declare(strict_types=1);
 
-namespace Bluethink\Kuebix\Helper;
+namespace Bluethinkinc\Kuebix\Helper;
  
 use Magento\Framework\App\Helper\AbstractHelper;
  
@@ -55,8 +55,9 @@ class Apidata extends AbstractHelper
     }
 
     /**
-     * makeACurlRequest
-     * @param $pinCode
+     * Get response from kuebix api
+     *
+     * @param (int) $pinCode
      * @return Array
      */
     public function makeACurlRequest($pinCode)
@@ -116,8 +117,9 @@ class Apidata extends AbstractHelper
     }
 
     /**
-     * getconfigValue
-     * @param $path
+     * Get value from system configuration
+     *
+     * @param String $path
      * @return Array, string
      */
 
@@ -127,7 +129,7 @@ class Apidata extends AbstractHelper
     }
 
     /**
-     * getpercentageValue
+     * Get percentage Value
      *
      * @return String
      */
@@ -138,7 +140,7 @@ class Apidata extends AbstractHelper
     }
     
     /**
-     * postDataValidate
+     * Post Data Validate
      *
      * @return array
      */
@@ -209,7 +211,7 @@ class Apidata extends AbstractHelper
     }
 
     /**
-     * getLineItems
+     * GetLineItems
      *
      * @return array
      */

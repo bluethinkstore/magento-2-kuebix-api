@@ -1,11 +1,11 @@
 <?php
 /**
- * Copyright © Bluethink@copyright All rights reserved.
+ * Copyright © Bluethinkinc@copyright All rights reserved.
  * See COPYING.txt for license details.
  */
 declare(strict_types=1);
 
-namespace Bluethink\Kuebix\Model\Carrier;
+namespace Bluethinkinc\Kuebix\Model\Carrier;
 
 use Magento\Quote\Model\Quote\Address\RateRequest;
 use Magento\Shipping\Model\Rate\Result;
@@ -39,7 +39,7 @@ class Kuebixapi extends \Magento\Shipping\Model\Carrier\AbstractCarrier implemen
     protected $_rateMethodFactory;
 
     /**
-     * @var \Bluethink\Kuebix\Helper\Apidata
+     * @var \Bluethinkinc\Kuebix\Helper\Apidata
      */
     protected $_apiData;
 
@@ -53,10 +53,10 @@ class Kuebixapi extends \Magento\Shipping\Model\Carrier\AbstractCarrier implemen
      *
      * @param \Magento\Framework\App\Config\ScopeConfigInterface $scopeConfig
      * @param \Magento\Quote\Model\Quote\Address\RateResult\ErrorFactory $rateErrorFactory
-     * @param \Psr\Log\LoggerInterface                                    $logger
      * @param \Magento\Shipping\Model\Rate\ResultFactory $rateResultFactory
      * @param \Magento\Quote\Model\Quote\Address\RateResult\MethodFactory $rateMethodFactory
-     * @param \Bluethink\Kuebix\Helper\Apidata $apiData
+     * @param \Bluethinkinc\Kuebix\Helper\Apidata $apiData
+     * @param \Psr\Log\LoggerInterface $logger
      * @param \Magento\Framework\Session\SessionManagerInterface $coreSession
      * @param array $data
      */
@@ -65,7 +65,7 @@ class Kuebixapi extends \Magento\Shipping\Model\Carrier\AbstractCarrier implemen
         \Magento\Quote\Model\Quote\Address\RateResult\ErrorFactory $rateErrorFactory,
         \Magento\Shipping\Model\Rate\ResultFactory $rateResultFactory,
         \Magento\Quote\Model\Quote\Address\RateResult\MethodFactory $rateMethodFactory,
-        \Bluethink\Kuebix\Helper\Apidata $apiData,
+        \Bluethinkinc\Kuebix\Helper\Apidata $apiData,
         \Psr\Log\LoggerInterface $logger,
         \Magento\Framework\Session\SessionManagerInterface $coreSession,
         array $data = []
@@ -78,7 +78,10 @@ class Kuebixapi extends \Magento\Shipping\Model\Carrier\AbstractCarrier implemen
     }
 
     /**
-     * {@inheritdoc}
+     * Get Collect rate
+     *
+     * @param object $request
+     * @return object $result
      */
     public function collectRates(RateRequest $request)
     {
@@ -153,7 +156,7 @@ class Kuebixapi extends \Magento\Shipping\Model\Carrier\AbstractCarrier implemen
     }
 
     /**
-     * getAllowedMethods
+     * GetAllowedMethods
      *
      * @return array
      */

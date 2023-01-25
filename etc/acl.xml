@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <!--
 /**
- * Copyright © Bluethink@copyright All rights reserved.
+ * Copyright © Bluethinkinc@copyright All rights reserved.
  * See COPYING.txt for license details.
  */
  -->
@@ -12,7 +12,7 @@
 				<resource id="Magento_Backend::stores">
 					<resource id="Magento_Backend::stores_settings">
 						<resource id="Magento_Config::config">
-							<resource id="Bluethink_Kuebix::config_Bluethink_kuebix" title="kuebix"/>
+							<resource id="Bluethinkinc_Kuebix::config_Bluethinkinc_kuebix" title="kuebix"/>
 						</resource>
 					</resource>
 				</resource>

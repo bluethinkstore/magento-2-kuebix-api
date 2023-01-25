@@ -1,9 +1,9 @@
 <?php
 /**
- * Copyright © Bluethink@copyright All rights reserved.
+ * Copyright © Bluethinkinc@copyright All rights reserved.
  * See COPYING.txt for license details.
  */
-namespace Bluethink\Kuebix\Observer;
+namespace Bluethinkinc\Kuebix\Observer;
 
 use Magento\Framework\Event\ObserverInterface;
 use Magento\Framework\App\Request\DataPersistorInterface;

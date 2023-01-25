@@ -1,0 +1,21 @@
+{
+    "name": "bluethinkinc/magento-2-kuebix-api",
+    "description": "Kuebix API Magento 2",
+    "type": "magento2-module",
+    "minimum-stability": "dev",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Bluethinkinc"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Bluethinkinc\\magento-2-kuebix-api\\": ""
+        }
+    }
+}

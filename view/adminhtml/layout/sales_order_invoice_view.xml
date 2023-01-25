@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!--
 /**
- * Copyright © Bluethink@copyright All rights reserved.
+ * Copyright © Bluethinkinc@copyright All rights reserved.
  * See COPYING.txt for license details.
  */
  -->
@@ -10,7 +10,7 @@
         <referenceContainer name="content">
             <referenceBlock name="form">
                 <action method="setTemplate">
-                    <argument name="template" xsi:type="string">Bluethink_Kuebix::order/invoice/view/form.phtml</argument>
+                    <argument name="template" xsi:type="string">Bluethinkinc_Kuebix::order/invoice/view/form.phtml</argument>
                 </action>
             </referenceBlock>
          </referenceContainer>
