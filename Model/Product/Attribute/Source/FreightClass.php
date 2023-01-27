@@ -1,17 +1,16 @@
 <?php
-/**
- * Copyright © Bluethinkinc@copyright All rights reserved.
- * See COPYING.txt for license details.
- */
-namespace Bluethinkinc\Kuebix\Model\Source;
+declare(strict_types=1);
+
+namespace Bluethinkinc\Kuebix\Model\Product\Attribute\Source;
 
 class FreightClass extends \Magento\Eav\Model\Entity\Attribute\Source\AbstractSource
 {
-   /**
-    * Get Fright class option
-    *
-    * @return array
-    */
+
+    /**
+     * getAllOptions
+     *
+     * @return array
+     */
     public function getAllOptions()
     {
         if ($this->_options === null) {
@@ -24,3 +23,4 @@ class FreightClass extends \Magento\Eav\Model\Entity\Attribute\Source\AbstractSo
         return $this->_options;
     }
 }
+

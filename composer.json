@@ -15,7 +15,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Bluethinkinc\\magento-2-kuebix-api\\": ""
+            "Bluethinkinc\\Kuebix\\": ""
         }
     }
 }
